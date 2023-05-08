@@ -1,8 +1,14 @@
 /*
-Theme Name: Astra Child
-Description: Child theme for Astra. You can now safely customize it and not risk losing your customizations.
-Author: WPMarmite
-Author URI: https://wpmarmite.com
-Template: Astra
+Theme Name: poupéesrusses
+Author: Ouiza Ouyed
+Description: Mon premier thème !
 Version: 1.0
 */
+.menu {
+  position: fixed;
+  top: 0px;
+}
+
+.admin-bar .menu {
+  top: 32px; /* on prend en compte le décalage */
+}
